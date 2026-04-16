@@ -87,3 +87,48 @@ This repository contains code and results for NYU CS2590 NLP Assignment 4, Sprin
 ---
 
 ## File Structure
+hw4-nlp-assignment/
+├── main.py                      # BERT training & evaluation
+├── utils.py                     # QWERTY typo transformation, data loading
+├── train_and_save.py            # Augmented model training
+├── train_t5.py                  # T5 fine-tuning pipeline
+├── load_data.py                 # Data loading utilities
+├── t5_utils.py                  # T5-specific functions
+├── hw4_final_updated.pdf        # Written report
+├── out_original.txt             # Q1 predictions
+├── out_transformed.txt          # Q2 predictions
+├── out_augmented_original.txt   # Q3 original predictions
+├── out_augmented_transformed.txt # Q3 transformed predictions
+├── t5_ft_experiment_test.sql    # T5 test predictions (SQL)
+├── t5_ft_experiment_test.pkl    # T5 test predictions (pickled)
+└── README.md                    # This file
+
+---
+
+## AI Usage Documentation
+
+**Tools Used:** Claude (Anthropic), NotebookLM
+
+**Usage:**
+1. Understanding assignment requirements and clarifying ambiguous sections
+2. Debugging code errors and suggesting fixes
+3. Analyzing model errors and categorizing by error type
+
+**Note:** All code was authored by me. AI provided explanations and guidance; all implementation and experimental design decisions were made independently.
+
+---
+
+## Results Summary
+
+| Component | Metric | Result | Threshold | Status |
+|-----------|--------|--------|-----------|--------|
+| Q1 BERT | Test Accuracy | 91.74% | >91% |  PASS |
+| Q2 Transform | Accuracy Drop | 16.18 pts | >4 pts |  PASS |
+| Q3 Augment | OOD Improvement | +9.15 pts | N/A |  WRITTEN |
+| Q7 T5 | Record F1 | 73.35% | >65% |  PASS |
+
+---
+
+## Contact
+
+Nirman Taterh | nt2613@nyu.edu
