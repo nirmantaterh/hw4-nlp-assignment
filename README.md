@@ -11,7 +11,7 @@ This repository contains code and results for NYU CS2590 NLP Assignment 4, Sprin
 
 ### Q1: Fine-tuning BERT Model
 - **Task:** Fine-tune BERT on IMDB dataset for binary sentiment classification
-- **Result:** 91.74% test accuracy (threshold: >91%) ✓
+- **Result:** 91.74% test accuracy (threshold: >91%) 
 - **Training:** 3 epochs on full IMDB training set
 - **Files:** `main.py`, `utils.py`
 
@@ -19,7 +19,7 @@ This repository contains code and results for NYU CS2590 NLP Assignment 4, Sprin
 - **Task:** Design & implement realistic out-of-distribution transformation
 - **Approach:** Character-level QWERTY keyboard proximity typo injection (10% corruption rate)
 - **Rationale:** Simulates common user typing errors while preserving sentiment labels
-- **Result:** 75.56% accuracy on transformed test set (drop: 16.18 points) ✓
+- **Result:** 75.56% accuracy on transformed test set (drop: 16.18 points) 
 - **Grade:** Full credit (drop > 4 points)
 
 ### Q3: Data Augmentation Analysis
@@ -28,7 +28,7 @@ This repository contains code and results for NYU CS2590 NLP Assignment 4, Sprin
 - **Results:**
   - Augmented model on original test: 90.63% (vs 91.74% non-augmented)
   - Augmented model on transformed test: 84.71% (vs 75.56% non-augmented)
-  - Improvement on OOD data: +9.15 points ✓
+  - Improvement on OOD data: +9.15 points 
   - Trade-off on ID data: -1.11 points (acceptable)
 - **Insight:** Augmentation trades in-distribution accuracy for out-of-distribution robustness
 - **Files:** `train_and_save.py`, `main.py`
@@ -44,7 +44,7 @@ This repository contains code and results for NYU CS2590 NLP Assignment 4, Sprin
 - **No preprocessing applied** (used as-is)
 
 ### Q6-Q7: Results & Error Analysis
-- **Test Performance:** Record F1 = 73.35% (threshold: >65%) ✓
+- **Test Performance:** Record F1 = 73.35% (threshold: >65%) 
 - **Dev Performance:** Record F1 = 76.32%, Query EM = 1.93%
 - **Best Checkpoint:** Epoch 41 (saved to Google Drive)
 
