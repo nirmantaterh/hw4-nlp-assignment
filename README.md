@@ -115,7 +115,7 @@ This repository contains code and results for NYU CS2590 NLP Assignment 4, Sprin
 3. Analyzing model errors and categorizing by error type
 
 **Note:** All code was authored by me. AI provided explanations and guidance; all implementation and experimental design decisions were made independently.
-
+```
 ---
 
 ## Results Summary
@@ -126,4 +126,4 @@ This repository contains code and results for NYU CS2590 NLP Assignment 4, Sprin
 | Q2 Transform | Accuracy Drop | 16.18 pts | >4 pts |  PASS |
 | Q3 Augment | OOD Improvement | +9.15 pts | N/A |  WRITTEN |
 | Q7 T5 | Record F1 | 73.35% | >65% |  PASS |
-```
+
