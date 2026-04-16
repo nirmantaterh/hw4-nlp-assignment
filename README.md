@@ -1,4 +1,4 @@
-# CS2590 HW4: BERT Sentiment Classification & T5 Text-to-SQL
+# CS2590 HW4: Fine Tuning LMs
 
 ## Overview
 This repository contains code and results for NYU CS2590 NLP Assignment 4, Spring 2026.
