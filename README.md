@@ -87,7 +87,7 @@ This repository contains code and results for NYU CS2590 NLP Assignment 4, Sprin
 ---
 
 ## File Structure
-hw4-nlp-assignment/
+```hw4-nlp-assignment/
 ├── main.py                      # BERT training & evaluation
 ├── utils.py                     # QWERTY typo transformation, data loading
 ├── train_and_save.py            # Augmented model training
@@ -126,9 +126,4 @@ hw4-nlp-assignment/
 | Q2 Transform | Accuracy Drop | 16.18 pts | >4 pts |  PASS |
 | Q3 Augment | OOD Improvement | +9.15 pts | N/A |  WRITTEN |
 | Q7 T5 | Record F1 | 73.35% | >65% |  PASS |
-
----
-
-## Contact
-
-Nirman Taterh | nt2613@nyu.edu
+```
